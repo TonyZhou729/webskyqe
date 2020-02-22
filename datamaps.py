@@ -4,7 +4,7 @@ import numpy as np
 from plancklens import utils
 
 ### Input the path to temperature map here. Ensure units are *Micro*Kelvin.
-tlm_path = '/mount/citadel1/zz1994/codes/plqe/maps/lensed_alm.fits'
+tlm_path = '.../lensed_alm.fits'
 
 class websky_lensed:
     '''
