@@ -2,6 +2,7 @@ import healpy as hp
 import numpy as np
 from plancklens import utils
 
+
 ###########################################################################
 #                                                                         #
 # Input the path to temperature map here. Ensure units are *Micro*Kelvin. #

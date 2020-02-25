@@ -1,7 +1,7 @@
 import os
 
 ### Set to where the plancklens module is located at.
-os.environ['PLENS'] = '.../plancklens'
+os.environ['PLENS'] = '/mount/citadel1/zz1994/GitHub/plancklens'
 
 import healpy as hp
 import numpy as np

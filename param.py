@@ -14,7 +14,7 @@ from plancklens.sims import phas, maps, utils as map_utils
 import datamaps
 
 ### Enter the absolute path to the plancklens module.
-os.environ['PLENS'] = '.../plancklens'
+os.environ['PLENS'] = '/mount/citadel1/zz1994/GitHub/plancklens'
 assert 'PLENS' in os.environ.keys(), 'Set env. variable PLENS to a writeable folder'
 
 '''
@@ -29,7 +29,7 @@ TEMP = os.path.join(os.environ['PLENS'], 'temp', 'websky%d' % 1)
 ### Structure of sample data is provided (or just use them.)
 ### Ensure that temperature Cls are Cl*L(L+1)/(2pi), and have units microK^2
 ### If you use the provided fiducial cosmology, enter path to 'fidcosmo' which should be in the same directory.
-cls_path = '.../fidcosmo'
+cls_path = '/mount/citadel1/zz1994/codes/webskyqe/fidcosmo'
 
 #--- definition of simulation and inverse-variance filtered simulation libraries:
 lmax_ivf = 2048
